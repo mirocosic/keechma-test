@@ -17,6 +17,6 @@
    :keechma/controllers
    {:router {:keechma.controller/params true,
              :keechma.controller/type :keechma/router,
-             :keechma/routes [["" {:page "home"}] ":page" ":page/:subpage"]},
+             :keechma/routes [":page" ":page/:subpage"]},
     :dataloader {:keechma.controller/params true,
                  :keechma.controller/type :keechma/dataloader}}})
